@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1554395741 source:d:\sebastian eliano\arrays\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
