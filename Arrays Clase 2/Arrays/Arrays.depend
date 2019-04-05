@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1554395741 source:d:\sebastian eliano\arrays\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1554390870 source:d:\sebastian eliano\cosas-de-la-facu\clase arrays\arrays\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1554465678 source:d:\seba\cosas-de-la-facu\clase arrays\arrays\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1554468643 source:d:\seba\cosas-de-la-facu\arrays clase 2\arrays\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"bibliotecarrays.h"
+
+1554468765 d:\seba\cosas-de-la-facu\arrays clase 2\arrays\bibliotecarrays.h
+

@@ -1,0 +1,10 @@
+#include "bibliotecaarrays.h"
+
+void mostrarArray(int array[])
+{
+    int i;
+    for(i=0;i<LARGO;i++)
+       {
+        printf("Array : %d \n",array[i]);
+       }
+}

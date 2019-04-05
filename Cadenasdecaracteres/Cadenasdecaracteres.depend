@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1554475704 source:d:\seba\cosas-de-la-facu\cadenasdecaracteres\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
