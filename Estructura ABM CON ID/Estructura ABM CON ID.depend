@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1556370687 source:d:\e\cosas-de-la-facu\estructura abm con id\main.c
+	<stdio.h>
+	<stdlib.h>
+	"estructura.h"
+
+1556370792 d:\e\cosas-de-la-facu\estructura abm con id\estructura.h
+
