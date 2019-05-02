@@ -23,7 +23,7 @@ int main()
     mostrarEstructuraProducto(eProductos listadoProductos);
     mostrarEstructuraProveedor(eProveedor listadoProveedor);
     mostrarArray(listadoProductos,CANT);
-
+    mostrarArrayProductosConProveedor(eProductos listadoProductos,CANT,eProveedor listadoProductos , CANT);
     do
     {
         printf("1.ALTA\n2.BAJA\n3.MODIFICAR\n4.Mostrar\nElija opcion: ");

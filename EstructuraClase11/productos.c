@@ -35,7 +35,7 @@ eProductos pedirEstructura()
 
 }
 
-void mostrarEstructuraProducto(eProducto Producto)
+void mostrarEstructuraProducto(eProducto Producto, int Tam)
 {
 
         printf("\t\n---->Lista Productos!<-----\n");
@@ -43,7 +43,7 @@ void mostrarEstructuraProducto(eProducto Producto)
 
 }
 
-void mostrarEstructuraProveedor(eProveedor Proveedor)
+void mostrarEstructuraProveedor(eProveedor Proveedor, int Tam)
 {
 
         printf("\t\n---->Lista Proveedores!<-----\n");
@@ -198,7 +198,7 @@ void InicializarProductos(eProductos lista[] , int cant)
 {
     int i;
 
-    char Nombre[8][50]={ "Infinia ", "AxionPower" , "Vpower","Infinia Diesel" , "AxionDiesel", "ViPowerDiesel","Normal","Kerosene"};
+    char Nombre[8][50]={ "Infinia ", "AxionPower" , "Vipower","Infinia Diesel" , "AxionDiesel", "ViPowerDiesel","Normal","Kerosene"};
     char codigodeBarras[4][50]={"100","200","300","400"};
     char fechadeVencimiento[3][50]={"01/01/2020","01/02/2020","01/07/2020","02/03/2020","02/10/2020","01/19/2020"};
     float Precio[10]={42,43,44,40,41,35,36,37,38};
@@ -214,4 +214,29 @@ void InicializarProductos(eProductos lista[] , int cant)
     }
 }
 
+void mostrarArrayProductosConProveedor(eProductos listado[], int cant , eProveedor listadoProveedor[],int cantproveedor)
+{
+    int i;
+    for(i=0; i<cant; i++)
+    {
+      mostrarProducto(listado[i]);
 
+       for(j=0;j<cantproveedor;j++)
+       {
+        if (listado[i].IdProveedor== listadoProveedor[i].id)
+        {
+           mostrarEstructuraProveedor(listadoProveedor[j]);
+        }
+
+       }
+
+    }
+}
+void mostrarArrayProductosOrdenado(eProductos listado[], int cant , eProveedor listadoProveedor[],int cantproveedor,int Desc)
+{
+
+}
+void mostrarArrayProductosElmaximo(eProductos listado[], int cant , eProveedor listadoProveedor[],int cantproveedor,int Desc)
+{
+
+}
