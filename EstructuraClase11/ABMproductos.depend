@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1556755734 source:d:\prepa\abmproductos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"productos.h"
+
+1556755331 d:\prepa\abmproductos\productos.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1556815177 source:d:\eliano\cosas-de-la-facu\estructuraclase11\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"bibliotekmenu.h"
+	"productos.h"
+
+1556814701 d:\eliano\cosas-de-la-facu\estructuraclase11\productos.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1556814980 d:\eliano\cosas-de-la-facu\estructuraclase11\bibliotekmenu.h
+
