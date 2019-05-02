@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1556755734 source:d:\prepa\abmproductos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"productos.h"
+
+1556755331 d:\prepa\abmproductos\productos.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
